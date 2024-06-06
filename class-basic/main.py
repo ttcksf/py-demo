@@ -4,8 +4,8 @@ class Test:
   test_list = [1,2,3]
 
   # 関数には引数にselfが必要
-  def test_func(self):
-    print(1 + 2)
+  def test_func(self, a, b):
+    print(a + b)
     # selfはクラス自身のこと
     print(self.test_var)
 
@@ -13,7 +13,7 @@ class Test:
 test = Test()
 print(test.test_var)
 print(test.test_list)
-test.test_func()
+test.test_func(1,2)
 
 # 関数と違って違う名前で複製することが可能
 # inst = Test()
