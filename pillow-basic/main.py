@@ -1,3 +1,5 @@
+# pip install Pillow
+
 from PIL import Image
 
 image = Image.open("./image.png")
