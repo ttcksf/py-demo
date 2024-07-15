@@ -1,8 +1,5 @@
 # pip install matplotlib
 import matplotlib.pyplot as plt
-
-import matplotlib.pyplot as plt
-
 # 画面を作成
 fig = plt.figure()
 
